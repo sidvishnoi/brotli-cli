@@ -1,0 +1,26 @@
+{
+	"name": "brrr",
+	"version": "1.0.0",
+	"engines": {
+		"node": ">=10.16.0"
+	},
+	"bin": {
+		"brr": "index.js",
+		"brotli": "index.js"
+	},
+	"dependencies": {
+		"mri": "^1.1.5"
+	},
+	"description": "CLI to compress files using Brotli Compression algorithm.",
+	"main": "index.js",
+	"keywords": [
+		"brotli",
+		"cli",
+		"brotli-cli",
+		"compress",
+		"zlib"
+	],
+	"repository": "github:sidvishnoi/brotli-cli",
+	"author": "Sid Vishnoi <sidvishnoi8@gmail.com> (https://sidvishnoi.github.io/)",
+	"license": "MIT"
+}
