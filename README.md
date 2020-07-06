@@ -15,7 +15,7 @@ npm install --global brrr
 yarn global add brrr
 
 # or, use npx for one-off runs:
-npx brotli [SEE USAGE BELOW]
+npx brrr [SEE USAGE BELOW]
 ```
 
 ## Usage
