@@ -33,6 +33,9 @@ $ brrr *.js -o OUT
 $ brrr --stdin < INPUT > OUTPUT
 $ cat INPUT.txt | brrr --stdin > OUTPUT
 $ brrr input.txt --stdout
+
+# Compress all files in a directory
+$ find INPUT_DIR -type f | xargs brrr -o OUT_DIR
 ```
 
 You can replace **`brrr`** above with **`brotli`** to sound more professional (or if miss a few _r_ in previous command — finding a good package name is difficult). That is, the following also works just as fine:
