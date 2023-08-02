@@ -4,12 +4,13 @@
 	"engines": {
 		"node": ">=10.16.0"
 	},
+	"packageManager": "pnpm@8.6.11",
 	"bin": {
 		"brrr": "index.js",
 		"brotli": "index.js"
 	},
 	"dependencies": {
-		"mri": "^1.1.5"
+		"mri": "^1.2.0"
 	},
 	"description": "CLI to compress files using Brotli Compression algorithm.",
 	"main": "index.js",
