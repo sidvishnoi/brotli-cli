@@ -5,7 +5,7 @@
 		"node": ">=10.16.0"
 	},
 	"bin": {
-		"brr": "index.js",
+		"brrr": "index.js",
 		"brotli": "index.js"
 	},
 	"dependencies": {
